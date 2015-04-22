@@ -20,7 +20,7 @@ def get_issue_details(repository, issue_output_file, milestone_output_file):
 		f.write("Number" + "," + "Title" + "," + "Open issues" + "," + "Closed issues" + "," + "State" + "," + "Created At" + "," + "Due on" + "," + "Closed At" + "\n")
 		states = ['open', 'closed']
 		
-		token = "ee76ae77a8c21b9d7e9eaebcb9e7836ad512e709"
+		token = "Insert token here"
 		repo = 'https://api.github.com/repos/' + repository + '/issues'
 		page = 1
 		while(True):
