@@ -1,0 +1,97 @@
+Issue Number,Username,Labels,State,Assignee,Milestone,Created At,Closed At,Created-Closed Time Difference(Days)
+96,user1,,closed,user1,none,1427912965,1427948884,0.415729167
+95,user1,,closed,user1,none,1427912612,1427912869,0.002974537
+94,user1,,closed,user2,none,1427912407,1428004380,1.064502315
+93,user1,,closed,user2,none,1427912123,1428006439,1.09162037
+92,user1,,closed,user1,none,1427912067,1427920693,0.099837963
+91,user1,,closed,user1,none,1427911998,1427942013,0.347395833
+90,user1,,closed,user2,none,1427911790,1428334620,4.893865741
+89,user1,,closed,user1,none,1427911723,1427948637,0.42724537
+88,user2,Writing|,closed,user2,Submit Final Project Report,1427896128,1428007448,1.288425926
+87,user2,Writing|,closed,user1,Submit Final Project Report,1427896107,1427944272,0.557465278
+86,user2,Writing|,closed,user1,Submit Final Project Report,1427895158,1427920745,0.296145833
+85,user2,Writing|,closed,user1,Submit Final Project Report,1427895064,1427920693,0.296631944
+84,user2,Grid|,closed,user2,Full paper draft,1427744688,1427744850,0.001875
+83,user2,Our Process|Writing|,closed,user1,Full paper draft,1427317032,1427462916,1.688472222
+82,user2,Writing|,closed,user2,Full paper draft,1427294549,1427717929,4.900231481
+81,user2,Writing|,closed,user2,Full paper draft,1427294525,1427717941,4.900648148
+80,user2,In Progress|Writing|,closed,user2,Full paper draft,1427294475,1427717950,4.901331019
+79,user2,In Progress|Writing|,closed,user2,Full paper draft,1427294449,1427717956,4.901701389
+78,user2,In Progress|Writing|,closed,user2,Full paper draft,1427294419,1427717962,4.902118056
+77,user2,Writing|,closed,user2,Full paper draft,1427294392,1427744632,5.211111111
+76,user2,Writing|,closed,user2,Full paper draft,1427294369,1427744640,5.211469907
+75,user2,Writing|,closed,user1,Full paper draft,1427231813,1427462953,2.675231481
+74,user2,Writing|,closed,user1,Full paper draft,1427231765,1427462775,2.673726852
+73,user2,Grid|,closed,user1,Finalize Rep Grid,1427231699,1427462977,2.676828704
+72,user2,Grid|,closed,user2,Finalize Rep Grid,1427214686,1427219616,0.057060185
+71,user1,Writing|,closed,user1,Full paper draft,1427201274,1427462935,3.028483796
+70,user2,Grid|,closed,none,Finalize Rep Grid,1427201233,1427201322,0.001030093
+69,user2,Grid|,closed,none,Finalize Rep Grid,1427201088,1427231528,0.352314815
+68,user2,Grid|,closed,user2,Finalize Rep Grid,1427200694,1427220024,0.223726852
+67,user2,Writing|,closed,user2,Full paper draft,1427117442,1427744645,7.259293981
+66,user1,,closed,user1,Project 1A: Preliminary Report,1425313478,1426174770,9.968657407
+65,user2,,closed,user2,Project 1A: Preliminary Report,1425313215,1425323369,0.117523148
+64,user2,,closed,user2,Project 1A: Preliminary Report,1425313181,1425323320,0.117349537
+63,user2,,closed,user2,Add Info of Relevant Papers,1425313148,1427200928,21.84930556
+62,user2,Our Process|,closed,user2,Project 1A: Preliminary Report,1425313042,1425319976,0.08025463
+61,user2,Step 2: Summarize|,closed,user2,none,1424697663,1424697689,0.000300926
+60,user2,Step 4: Dimension added to grid|,closed,user2,Add ALL resources to Paper Comparison RepGrid,1424460182,1427118607,30.76880787
+59,user2,Dead End|Step 3: Adds Dimension|,closed,user2,Add ALL resources to Paper Comparison RepGrid,1424460164,1426621540,25.01592593
+58,user2,Step 4: Dimension added to grid|,closed,user2,Add ALL resources to Paper Comparison RepGrid,1424460149,1427118649,30.76967593
+57,user2,Step 4: Dimension added to grid|,closed,user2,Add ALL resources to Paper Comparison RepGrid,1424460126,1427120219,30.78811343
+56,user2,Step 4: Dimension added to grid|,closed,user2,Add ALL resources to Paper Comparison RepGrid,1424460119,1427120361,30.78983796
+55,user2,Dead End|,closed,user2,Add ALL resources to Paper Comparison RepGrid,1424460073,1427118687,30.77099537
+54,user2,Dead End|,closed,user2,Add ALL resources to Paper Comparison RepGrid,1424460052,1427200259,31.7153588
+53,user2,Step 4: Dimension added to grid|,closed,user2,Add ALL resources to Paper Comparison RepGrid,1424460036,1427120877,30.79677083
+52,user2,Step 4: Dimension added to grid|,closed,user2,Add ALL resources to Paper Comparison RepGrid,1424460006,1427121088,30.79956019
+51,user2,If time|Step 3: Adds Dimension|,closed,user2,Add ALL resources to Paper Comparison RepGrid,1424459983,1427200320,31.71686343
+50,user2,If time|Step 1: Relevant Paper|,closed,user2,Add ALL resources to Paper Comparison RepGrid,1424459961,1427200275,31.71659722
+49,user2,Dead End|,closed,user2,Add ALL resources to Paper Comparison RepGrid,1424459943,1427200259,31.71662037
+48,user2,If time|Step 1: Relevant Paper|,closed,user2,Add ALL resources to Paper Comparison RepGrid,1424459916,1427200275,31.71711806
+47,user2,Dead End|Step 0: Determine if relevant|,closed,user1,Add ALL resources to Paper Comparison RepGrid,1424459899,1426534621,24.01298611
+46,user2,Key article|Step 4: Dimension added to grid|,closed,user1,Add ALL resources to Paper Comparison RepGrid,1424459877,1427123873,30.83328704
+45,user2,Dead End|,closed,user1,Add ALL resources to Paper Comparison RepGrid,1424459852,1427118246,30.76844907
+44,user2,Dead End|,closed,user1,Add ALL resources to Paper Comparison RepGrid,1424459834,1427119089,30.77841435
+43,user2,Dead End|,closed,user1,Add ALL resources to Paper Comparison RepGrid,1424459813,1427124130,30.83700231
+42,user2,Dead End|,closed,user1,Add ALL resources to Paper Comparison RepGrid,1424459795,1427124255,30.83865741
+41,user2,Dead End|,closed,user1,Add ALL resources to Paper Comparison RepGrid,1424459776,1427124422,30.84081019
+40,user2,Dead End|,closed,user1,Add ALL resources to Paper Comparison RepGrid,1424459758,1427126530,30.86541667
+39,user2,Dead End|Step 2: Summarize|,closed,user1,Add ALL resources to Paper Comparison RepGrid,1424459745,1427120228,30.79262731
+38,user2,Dead End|,closed,user1,Add ALL resources to Paper Comparison RepGrid,1424459730,1427126719,30.86792824
+37,user2,Dead End|,closed,user1,Add ALL resources to Paper Comparison RepGrid,1424459715,1427126959,30.87087963
+36,user2,Dead End|,closed,user1,Add ALL resources to Paper Comparison RepGrid,1424459697,1427126636,30.86734954
+35,user2,Dead End|,closed,user1,Add ALL resources to Paper Comparison RepGrid,1424459670,1427126439,30.86538194
+34,user2,Step 3: Adds Dimension|,closed,user2,Add ALL resources to Paper Comparison RepGrid,1424459655,1427200341,31.72090278
+33,user2,Key article|,closed,user2,Project 1A: Preliminary Report,1424458562,1425319920,9.969421296
+32,user2,Our Process|,closed,none,none,1424457794,1425314951,9.920798611
+31,user1,Our Process|,closed,none,Define Outline of Final Report,1424148381,1427118487,34.37622685
+30,user1,Our Process|,closed,none,Define Outline of Final Report,1424148339,1427118499,34.37685185
+29,user2,Step 4: Dimension added to grid|,closed,user2,Add ALL resources to Paper Comparison RepGrid,1424103859,1427118756,34.8946412
+28,user2,Dead End|,closed,user1,Add ALL resources to Paper Comparison RepGrid,1424103400,1427126202,34.98613426
+27,user2,Dead End|Step 3: Adds Dimension|,closed,user2,Add ALL resources to Paper Comparison RepGrid,1424103387,1427200412,35.84519676
+26,user2,Dead End|,closed,user1,Add ALL resources to Paper Comparison RepGrid,1424103361,1427124854,34.9709838
+25,user2,Dead End|,closed,user1,Add ALL resources to Paper Comparison RepGrid,1424103263,1427125837,34.98349537
+24,user2,Step 4: Dimension added to grid|,closed,user2,Add Info of Relevant Papers,1424103242,1427123542,34.95717593
+23,user2,Dead End|,closed,user1,Add ALL resources to Paper Comparison RepGrid,1424103224,1427125587,34.98105324
+22,user2,Dead End|,closed,user1,Add ALL resources to Paper Comparison RepGrid,1424103197,1427125434,34.97959491
+21,user2,Step 4: Dimension added to grid|,closed,user2,Add Info of Relevant Papers,1424103172,1427124091,34.96434028
+20,user2,Step 4: Dimension added to grid|,closed,user2,Add Info of Relevant Papers,1424103153,1427124194,34.96575231
+19,user2,Step 4: Dimension added to grid|,closed,user2,Add Info of Relevant Papers,1424103132,1427124234,34.96645833
+18,user2,Step 4: Dimension added to grid|,closed,user2,Add Info of Relevant Papers,1424103115,1427124295,34.96736111
+17,user2,Step 4: Dimension added to grid|,closed,user2,Add Info of Relevant Papers,1424103098,1427124388,34.96863426
+16,user2,Dead End|,closed,user1,Add ALL resources to Paper Comparison RepGrid,1424103075,1427125230,34.97864583
+15,user2,Dead End|,closed,user1,Add ALL resources to Paper Comparison RepGrid,1424102999,1427125009,34.97696759
+14,user2,Dead End|Key article|,closed,user2,Add ALL resources to Paper Comparison RepGrid,1424102981,1427200259,35.848125
+13,user2,Dead End|Step 3: Adds Dimension|,closed,user2,Add Info of Relevant Papers,1424102954,1427200778,35.85444444
+12,user2,Dead End|,closed,user1,Add ALL resources to Paper Comparison RepGrid,1424102930,1427124715,34.97436343
+11,user2,Step 3: Adds Dimension|Step 4: Dimension added to grid|,closed,user2,Add Info of Relevant Papers,1424102892,1427200857,35.85607639
+10,user1,Our Process|,closed,none,none,1424101991,1424467072,4.225474537
+9,user2,Key article|Step 2: Summarize|,closed,user2,Add ALL resources to Paper Comparison RepGrid,1424100095,1427200542,35.88480324
+8,user2,Key article|,closed,user1,Project 1A: Preliminary Report,1424099416,1426174790,24.02053241
+7,user2,,closed,none,none,1424099113,1424460605,4.183935185
+6,user2,,closed,none,none,1424099008,1424460605,4.185150463
+5,user2,,closed,none,none,1424098938,1424460605,4.185960648
+4,user2,,closed,none,Add ALL resources to Paper Comparison RepGrid,1424098839,1424460611,4.187175926
+3,user2,Step 1: Relevant Paper|Step 2: Summarize|Step 3: Adds Dimension|,closed,none,none,1424098703,1425314764,14.07478009
+2,user1,Step 2: Summarize|,closed,user2,none,1423609700,1425315231,19.73994213
+1,user1,Question: Needs review from others|,closed,user1,none,1423609543,1425315201,19.74141204

@@ -1,0 +1,82 @@
+Issue,Timestamp,Action,Label,User,Milestone
+1,1423608419,labeled,bug,user3,Tasks for Week#3
+1,1423608416,unlabeled,task,user3,Tasks for Week#3
+1,1422411294,labeled,task,user3,Tasks for Week#3
+2,1423607873,labeled,bug,user3,Tasks for Week#3
+2,1422411403,labeled,task,user3,Tasks for Week#3
+3,1422411479,labeled,task,user3,Data Collection and Preliminary Analysis
+4,1422411547,labeled,task,user3,Data Collection and Preliminary Analysis
+5,1422411626,labeled,task,user3,None
+6,1423608624,labeled,modify script,user3,Data Collection and Preliminary Analysis
+6,1423608617,labeled,enhancement,user3,Data Collection and Preliminary Analysis
+6,1423608616,unlabeled,task,user3,Data Collection and Preliminary Analysis
+6,1423187974,labeled,task,user3,Data Collection and Preliminary Analysis
+7,1423608190,labeled,help wanted,user3,Tasks for Week#3
+7,1423608084,labeled,enhancement,user3,Tasks for Week#3
+7,1423187968,labeled,task,user3,Tasks for Week#3
+8,1423513554,labeled,enhancement,user3,Tasks for Week#3
+8,1423513554,labeled,bug,user3,Tasks for Week#3
+9,1424402127,labeled,help wanted,user3,Tasks for 02/27
+9,1424402127,labeled,bug,user3,Tasks for 02/27
+10,1424875757,labeled,help wanted,user4,Tasks for 02/27
+10,1424402759,labeled,Training,user3,Tasks for 02/27
+10,1424402759,labeled,task,user3,Tasks for 02/27
+11,1424402973,labeled,Training,user3,Tasks for 02/27
+11,1424402973,labeled,task,user3,Tasks for 02/27
+12,1424403510,labeled,Training,user3,Tasks for 02/27
+12,1424403510,labeled,task,user3,Tasks for 02/27
+13,1424403841,labeled,Training,user3,Tasks for 02/27
+13,1424403841,labeled,task,user3,Tasks for 02/27
+14,1424404635,labeled,task,user3,Tasks for 02/27
+14,1424404635,labeled,enhancement,user3,Tasks for 02/27
+15,1424405399,labeled,Testing,user3,Tasks for 02/27
+15,1424405399,labeled,generate script,user3,Tasks for 02/27
+16,1424408744,labeled,team discussion,user3,Tasks for 02/27
+17,1424471527,labeled,question,user2,None
+18,1424642241,labeled,generate script,user3,Tasks for 02/27
+18,1424642241,labeled,task,user3,Tasks for 02/27
+26,1424827321,labeled,bug,user3,Tasks for 02/27
+30,1424835057,labeled,Testing,user3,Tasks for 02/27
+30,1424835057,labeled,task,user3,Tasks for 02/27
+31,1424835108,labeled,Testing,user3,Tasks for 02/27
+31,1424835108,labeled,task,user3,Tasks for 02/27
+32,1424835158,labeled,Testing,user3,Tasks for 02/27
+32,1424835158,labeled,task,user3,Tasks for 02/27
+33,1424835193,labeled,Testing,user3,Tasks for 02/27
+33,1424835193,labeled,task,user3,Tasks for 02/27
+35,1424919825,labeled,bug,user3,Tasks for 02/27
+36,1424920225,labeled,team discussion,user3,105 Model
+36,1424920225,labeled,task,user3,105 Model
+41,1425425017,labeled,generate script,user2,Milestone-03/07
+41,1425425017,labeled,task,user2,Milestone-03/07
+43,1425428449,labeled,generate script,user3,Milestone-03/07
+43,1425428449,labeled,task,user3,Milestone-03/07
+47,1425789999,labeled,bug,user2,None
+47,1425789989,labeled,question,user2,None
+48,1426909095,unlabeled,Training,user3,Milestone-03/15
+48,1426909095,unlabeled,enhancement,user3,Milestone-03/15
+48,1426909095,labeled,bug,user3,Milestone-03/15
+48,1425940911,labeled,Training,user3,Milestone-03/15
+48,1425940911,labeled,enhancement,user3,Milestone-03/15
+50,1426908693,labeled,generate script,user3,Milestone-03/30
+50,1426908693,labeled,task,user3,Milestone-03/30
+51,1426908813,labeled,task,user3,Milestone-03/30
+51,1426908813,labeled,enhancement,user3,Milestone-03/30
+52,1426908905,labeled,task,user3,Milestone-03/30
+52,1426908905,labeled,enhancement,user3,Milestone-03/30
+53,1426909076,labeled,task,user3,Milestone-03/30
+53,1426909076,labeled,enhancement,user3,Milestone-03/30
+57,1427156459,labeled,Training,user3,Milestone-03/30
+58,1427164957,labeled,Testing,user3,Milestone-03/30
+60,1427242842,labeled,Training,user3,Milestone-03/30
+60,1427242842,labeled,task,user3,Milestone-03/30
+61,1427242908,labeled,Training,user3,Milestone-03/30
+61,1427242908,labeled,task,user3,Milestone-03/30
+62,1427242947,labeled,Training,user3,Milestone-03/30
+62,1427242947,labeled,task,user3,Milestone-03/30
+63,1427314556,labeled,enhancement,user3,Milestone-03/30
+71,1428366735,labeled,task,user1,None
+71,1428366735,labeled,enhancement,user1,None
+72,1428366887,labeled,generate script,user2,None
+72,1428366887,labeled,task,user2,None
+74,1428367311,labeled,task,user1,None

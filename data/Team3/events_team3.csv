@@ -1,0 +1,121 @@
+Issue,Timestamp,Action,Label,User,Milestone
+2,1423975189,labeled,develop,user2,V1
+3,1424987553,labeled,Solved,user1,V1
+3,1423975359,labeled,develop,user2,V1
+4,1424019915,labeled,test,user2,V1
+5,1424107334,labeled,Solved,user1,Beta Launch 
+5,1424103079,unlabeled,Solved,user3,Beta Launch 
+5,1424103075,labeled,Solved,user3,Beta Launch 
+5,1424103075,unlabeled,Solved,user3,Beta Launch 
+5,1424103074,unlabeled,bug,user3,Beta Launch 
+5,1424103074,labeled,bug,user3,Beta Launch 
+5,1424100813,unlabeled,help wanted,user1,Beta Launch 
+5,1424100810,labeled,Solved,user1,Beta Launch 
+5,1424019988,labeled,help wanted,user2,Beta Launch 
+6,1424035745,labeled,develop,user2,V1
+7,1427054321,labeled,Solved,user1,V2
+7,1424035852,labeled,design,user2,V2
+8,1424100702,labeled,design,user1,V1
+8,1424100702,labeled,develop,user1,V1
+9,1424107425,labeled,Solved,user1,Beta Launch 
+9,1424102059,labeled,develop,user1,Beta Launch 
+9,1424102059,labeled,help wanted,user1,Beta Launch 
+10,1424106054,labeled,Solved,user1,Beta Launch 
+10,1424104507,labeled,help wanted,user1,Beta Launch 
+11,1424107098,labeled,help wanted,user3,Beta Launch 
+12,1425077391,labeled,Solved,user1,Beta Launch 
+12,1424107315,labeled,design,user1,Beta Launch 
+13,1424987482,labeled,Solved,user1,V1
+13,1424109447,labeled,help wanted,user2,V1
+14,1424109925,labeled,design,user2,V1
+15,1424110098,unlabeled,duplicate,user2,V1
+15,1424110095,labeled,duplicate,user2,V1
+15,1424110083,labeled,test,user2,V1
+16,1424300904,labeled,Solved,user1,Beta Launch 
+16,1424110107,labeled,question,user3,Beta Launch 
+17,1424110751,labeled,design,user2,V1
+18,1424111949,labeled,design,user1,V1
+19,1424112021,labeled,design,user2,V1
+20,1424987082,labeled,Solved,user1,V1
+20,1424112426,labeled,design,user3,V1
+21,1424667676,labeled,Solved,user1,Beta Launch 
+21,1424146832,labeled,design,user1,Beta Launch 
+21,1424146832,labeled,help wanted,user1,Beta Launch 
+22,1424300786,labeled,Solved,user1,Beta Launch 
+22,1424203690,labeled,bug,user2,Beta Launch 
+23,1424300626,labeled,Solved,user1,Beta Launch 
+23,1424297794,labeled,develop,user1,Beta Launch 
+24,1424711748,labeled,Solved,user1,Beta Launch 
+24,1424301155,labeled,design,user1,Beta Launch 
+24,1424301155,labeled,develop,user1,Beta Launch 
+25,1424627992,labeled,Solved,user1,Beta Launch 
+25,1424383209,labeled,design,user1,Beta Launch 
+25,1424383209,labeled,develop,user1,Beta Launch 
+26,1424641742,labeled,Solved,user1,Beta Launch 
+26,1424473810,labeled,help wanted,user2,Beta Launch 
+27,1424711644,labeled,Solved,user1,Beta Launch 
+27,1424641844,labeled,develop,user1,Beta Launch 
+28,1424707744,labeled,Solved,user1,Beta Launch 
+28,1424667627,labeled,help wanted,user1,Beta Launch 
+28,1424642322,labeled,design,user1,Beta Launch 
+28,1424642322,labeled,develop,user1,Beta Launch 
+29,1424986061,labeled,Solved,user1,V1
+29,1424711973,labeled,design,user1,V1
+29,1424711973,labeled,develop,user1,V1
+30,1424897983,labeled,test,user2,V1
+31,1424904573,labeled,develop,user2,V1
+32,1424970458,labeled,Solved,user1,V1
+32,1424924116,labeled,help wanted,user2,V1
+33,1424925791,labeled,design,user2,V1
+33,1424925791,labeled,develop,user2,V1
+34,1424987404,labeled,help wanted,user2,V1
+34,1424987404,labeled,bug,user2,V1
+35,1427054408,labeled,Solved,user1,V2
+35,1425248248,labeled,help wanted,user2,V2
+35,1425248248,labeled,enhancement,user2,V2
+36,1427054428,labeled,Solved,user1,None
+36,1425348913,unlabeled,Solved,user1,None
+36,1425348906,labeled,Solved,user1,None
+36,1425345174,labeled,question,user2,None
+37,1427054565,labeled,Solved,user1,System test and Report
+37,1425401250,labeled,question,user1,System test and Report
+38,1427054593,labeled,Solved,user1,None
+38,1425417428,labeled,bug,user2,None
+39,1425757620,labeled,bug,user2,V1
+40,1427054665,labeled,Solved,user1,V2
+40,1425962491,labeled,design,user2,V2
+40,1425962491,labeled,enhancement,user2,V2
+41,1427054691,labeled,help wanted,user1,V2
+41,1426211865,labeled,bug,user2,V2
+42,1427054867,labeled,Solved,user1,V2
+42,1426217996,labeled,design,user2,V2
+43,1426218781,labeled,bug,user2,V2
+44,1427249095,labeled,Solved,user1,None
+45,1427054767,labeled,Solved,user1,V2
+45,1426393450,labeled,bug,user2,V2
+47,1427249139,labeled,Solved,user1,System test and Report
+47,1427131511,labeled,bug,user2,System test and Report
+48,1427255223,labeled,design,user2,System test and Report
+48,1427255223,labeled,test,user2,System test and Report
+49,1427255354,labeled,help wanted,user2,System test and Report
+50,1427308924,labeled,bug,user2,System test and Report
+51,1427311328,labeled,design,user2,System test and Report
+51,1427311328,labeled,develop,user2,System test and Report
+52,1427311388,labeled,design,user2,System test and Report
+52,1427311388,labeled,duplicate,user2,System test and Report
+54,1427763094,labeled,design,user2,Final release
+55,1427763408,labeled,design,user2,Final release
+56,1427938886,labeled,Solved,user1,Final release
+56,1427834397,labeled,bug,user2,Final release
+57,1427834482,labeled,bug,user2,Final release
+61,1427937597,labeled,Solved,user2,Final release
+61,1427937597,labeled,invalid,user2,Final release
+62,1428158030,labeled,test,user2,None
+63,1428158809,labeled,question,user2,None
+64,1428170848,labeled,bug,user2,None
+64,1428170840,labeled,enhancement,user2,None
+65,1428200086,labeled,enhancement,user1,Final release
+66,1428250364,labeled,develop,user2,None
+67,1428264547,labeled,help wanted,user2,None
+68,1428343293,labeled,question,user2,None
+69,1428440030,labeled,enhancement,user1,None

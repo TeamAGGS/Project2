@@ -1,0 +1,70 @@
+Issue Number,Username,Labels,State,Assignee,Milestone,Created At,Closed At,Created-Closed Time Difference(Days)
+1,user1,,open,none,none,1423587966,none,invalid
+69,user1,enhancement|,closed,none,none,1428344167,1428440036,1.109594907
+68,user1,question|,closed,none,none,1428343282,1428439191,1.11005787
+67,user1,help wanted|,closed,user2,none,1428264547,1428368320,1.201076389
+66,user1,develop|,closed,none,none,1428250364,1428373148,1.421111111
+65,user2,enhancement|,closed,none,Final release,1428200078,1428205800,0.066226852
+64,user1,bug|enhancement|,closed,none,none,1428170682,1428336934,1.924212963
+63,user1,question|,closed,none,none,1428158809,1428336885,2.061064815
+62,user1,test|,closed,none,none,1428158030,1428329667,1.986539352
+61,user1,invalid|Solved|,closed,user1,Final release,1427937597,1428205770,3.103854167
+60,user3,,closed,none,none,1427916365,1427916885,0.006018519
+59,user3,,closed,none,Final release,1427853956,1428205756,4.071759259
+58,user3,,closed,none,Final release,1427852664,1428205717,4.086261574
+57,user1,bug|,closed,user1,Final release,1427834482,1428205644,4.295856481
+56,user1,bug|Solved|,closed,user2,Final release,1427834397,1427938881,1.209305556
+55,user1,design|,closed,user1,Final release,1427763408,1428203686,5.095810185
+54,user1,design|,closed,user2,Final release,1427763094,1428157716,4.567384259
+53,user3,,closed,user3,none,1427328882,1427492204,1.890300926
+52,user1,design|duplicate|,closed,none,System test and Report,1427311368,1427577383,3.078877315
+51,user1,design|develop|,closed,none,System test and Report,1427311328,1427577414,3.079699074
+50,user1,bug|,closed,none,System test and Report,1427308924,1427330025,0.244224537
+49,user1,help wanted|,closed,none,System test and Report,1427255354,1427492161,2.740821759
+48,user1,design|test|,closed,none,System test and Report,1427255172,1427492192,2.743287037
+47,user1,bug|Solved|,closed,none,System test and Report,1427131511,1427249153,1.361597222
+46,user1,,closed,none,V2,1427053848,1427248992,2.258611111
+45,user1,bug|Solved|,closed,none,V2,1426393450,1427054769,7.654155093
+44,user1,Solved|,closed,none,none,1426283683,1427249115,11.17398148
+43,user1,bug|,closed,none,V2,1426218781,1427053883,9.665532407
+42,user1,design|Solved|,closed,none,V2,1426217995,1427054869,9.686041667
+41,user1,bug|help wanted|,closed,none,V2,1426211865,1427248965,12.00347222
+40,user1,design|enhancement|Solved|,closed,none,V2,1425962491,1427054666,12.64091435
+39,user1,bug|,closed,none,V1,1425757602,1426211760,5.256458333
+38,user1,bug|Solved|,closed,none,none,1425417428,1426211791,9.194016204
+37,user3,question|Solved|,closed,none,System test and Report,1425399032,1427054568,19.1612963
+36,user1,question|Solved|,closed,none,none,1425345174,1427054433,19.78309028
+35,user1,enhancement|help wanted|Solved|,closed,none,V2,1425248248,1427054409,20.9046412
+34,user1,bug|help wanted|,closed,none,V1,1424987389,1426211710,14.17038194
+33,user1,design|develop|,closed,none,V1,1424925791,1426211651,14.88263889
+32,user1,help wanted|Solved|,closed,none,V1,1424924115,1424970486,0.536701389
+31,user1,develop|,closed,none,V1,1424904573,1426211636,15.12804398
+30,user1,test|,closed,none,V1,1424897983,1426211598,15.20387731
+29,user2,design|develop|Solved|,closed,user2,V1,1424711973,1424986063,3.172337963
+28,user2,design|develop|help wanted|Solved|,closed,none,Beta Launch ,1424641984,1424707746,0.761134259
+27,user2,develop|Solved|,closed,none,Beta Launch ,1424641844,1424711656,0.808009259
+26,user1,help wanted|Solved|,closed,none,Beta Launch ,1424473810,1424641742,1.943657407
+25,user2,design|develop|Solved|,closed,user2,Beta Launch ,1424383209,1424627983,2.833032407
+24,user2,design|develop|Solved|,closed,none,Beta Launch ,1424301155,1424711754,4.752303241
+23,user2,develop|Solved|,closed,user2,Beta Launch ,1424297794,1424300731,0.033993056
+22,user1,bug|Solved|,closed,user2,Beta Launch ,1424203690,1424641710,5.069675926
+21,user2,design|help wanted|Solved|,closed,user2,Beta Launch ,1424146832,1424667679,6.028321759
+20,user3,design|Solved|,closed,none,V1,1424112426,1424987077,10.12327546
+19,user1,design|,closed,none,V1,1424112021,1426107963,23.10118056
+18,user2,design|,closed,user2,V1,1424111949,1426107941,23.10175926
+17,user1,design|,closed,none,V1,1424110743,1426107932,23.11561343
+16,user3,question|Solved|,closed,none,Beta Launch ,1424110107,1424300898,2.208229167
+15,user1,test|,closed,none,V1,1424110067,1426107916,23.12325231
+14,user1,design|,closed,none,V1,1424109925,1426107886,23.12454861
+13,user1,help wanted|Solved|,closed,none,V1,1424109447,1424987476,10.16237269
+12,user2,design|Solved|,closed,none,Beta Launch ,1424107315,1424901839,9.19587963
+11,user3,help wanted|,closed,none,Beta Launch ,1424106054,1424901863,9.210752315
+10,user2,help wanted|Solved|,closed,none,Beta Launch ,1424104507,1424106062,0.017997685
+9,user2,develop|help wanted|Solved|,closed,none,Beta Launch ,1424102059,1424107429,0.062152778
+8,user2,design|develop|,closed,none,V1,1424100702,1426107868,23.23108796
+7,user1,design|Solved|,closed,none,V2,1424035829,1427054347,34.93655093
+6,user1,develop|,closed,none,V1,1424035745,1426107779,23.981875
+5,user1,Solved|,closed,none,Beta Launch ,1424019988,1424102086,0.950208333
+4,user1,test|,closed,none,V1,1424019915,1426107745,24.16469907
+3,user1,develop|Solved|,closed,none,V1,1423975340,1424987549,11.71538194
+2,user1,develop|,closed,none,V1,1423779397,1426107702,26.94797454
