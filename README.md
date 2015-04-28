@@ -29,6 +29,7 @@ Following features related to issues and issue-labels were found using VB script
 - Issue start time in Date format
 - Issue closing time in Date format
 - Frequency of the usage of each issue labels
+
 ### Milestones
 ### Pull-requests
 
