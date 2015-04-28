@@ -42,7 +42,7 @@ A very nice YouTube video give a short demo on how to create dashboards for Twit
 
 https://www.youtube.com/watch?v=uWIhdlnkEOM
 
-We used similar methods to analyze our data and created dashboards for the same. Our Tableau file can be found at https://www.github.com/TeamAGGS/Project2/code/ProjectReview.twb
+We used similar methods to analyze our data and created dashboards for the same. Our Tableau file (ProjectReview.twb) can be found at https://github.com/TeamAGGS/Project2/tree/master/code
 
 ### Milestones
 ### Pull-requests
