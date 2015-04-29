@@ -104,7 +104,10 @@ https://www.youtube.com/watch?v=uWIhdlnkEOM
 We used similar methods to analyze our data and created dashboards for the same. 
 Tableau files can be cound at https://github.com/TeamAGGS/Project2/tree/master/code:
 - Issues: (ProjectReview.twb) 
-- Pull Requests (Pull_requests.twb) 
+- Pull Requests: (Pull_requests.twb) 
+
+- Milestones: 
+By combining the feature detectors, we were also able to come up with few possible bad smells with respect to the milestones data using the [badsmell detector] (https://github.com/TeamAGGS/Project2/blob/master/code/milestone_badsmell_detector.py)
 
 
 
