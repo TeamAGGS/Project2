@@ -147,7 +147,7 @@ We further categorize bad smells related to issues into three high-level questio
 - Pull requests are a sophisticated way of letting your team members know that the person working on a feature has completed his part and the feature is ready for code review.
 - It is an ideal way to avoid following tedious email threads to keep up with the code review.
 
-<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%20Requests/pr2.jpg">
+<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%20Requests/pr2_new.jpg">
 - It appears that although there have been pull requests for Team1, the requests(except for pull request 38) have been *merged by the same person who created them*.
 - Ideally the merge should be performed by another member of the team after reviewing the code.
 
