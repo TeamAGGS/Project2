@@ -47,18 +47,19 @@ Following features related to the Pull Requests were found:
   - The Time gap between the creation and merge of each pull request being extremely low
 
 ## Bad smell detector
-### Events
-### Issues
+
 We imported these spreadsheets containing original data and features in Tableau for our further analysis. Tableau produces a family of interactive data visualization products focused on extracting and representing some patterns in the data. A fancy state of the art visualization can be created in a matter of seconds with simple drag-and-drop.
 
 A very nice YouTube video give a short demo on how to create dashboards for Twitter data.
 
 https://www.youtube.com/watch?v=uWIhdlnkEOM
 
-We used similar methods to analyze our data and created dashboards for the same. Our Tableau file (ProjectReview.twb) can be found at https://github.com/TeamAGGS/Project2/tree/master/code
+We used similar methods to analyze our data and created dashboards for the same. 
+Tableau files can be cound at https://github.com/TeamAGGS/Project2/tree/master/code:
+- Issues: (ProjectReview.twb) 
+- Pull Requests (Pull_requests.twb) 
 
-### Milestones
-### Pull-requests
+
 
 ## Bad smell results
 ### Events
