@@ -1732,6 +1732,8 @@
       </column>
       <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
       </column>
+      <column caption='Created By' datatype='string' name='[Username]' role='dimension' type='nominal'>
+      </column>
       <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
@@ -2587,7 +2589,7 @@
             <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
               <calculation class='tableau' formula='1' />
             </column>
-            <column datatype='string' name='[Username]' role='dimension' type='nominal'>
+            <column caption='Created By' datatype='string' name='[Username]' role='dimension' type='nominal'>
             </column>
             <column-instance column='[Username]' derivation='None' name='[none:Username:nk]' pivot='key' type='nominal' />
             <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
@@ -2658,7 +2660,7 @@
             </column>
             <column datatype='integer' name='[Number]' role='dimension' type='ordinal'>
             </column>
-            <column datatype='string' name='[Username]' role='dimension' type='nominal'>
+            <column caption='Created By' datatype='string' name='[Username]' role='dimension' type='nominal'>
             </column>
             <column-instance column='[Merged By]' derivation='None' name='[none:Merged By:nk]' pivot='key' type='nominal' />
             <column-instance column='[Number]' derivation='None' name='[none:Number:ok]' pivot='key' type='ordinal' />
@@ -2778,6 +2780,58 @@
         <cols>[textscan.42122.839152326385].[none:Username:nk]</cols>
       </table>
     </worksheet>
+    <worksheet name='Sheet 9'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='pull_requests_team1' name='textscan.42122.727884849533' />
+          </datasources>
+          <datasource-dependencies datasource='textscan.42122.727884849533'>
+            <column datatype='string' name='[Merged By]' role='dimension' type='nominal'>
+            </column>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column datatype='integer' name='[Number]' role='dimension' type='ordinal'>
+            </column>
+            <column caption='Created By' datatype='string' name='[Username]' role='dimension' type='nominal'>
+            </column>
+            <column-instance column='[Merged By]' derivation='None' name='[none:Merged By:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number]' derivation='None' name='[none:Number:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Username]' derivation='None' name='[none:Username:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='cell-w' value='20' />
+            <format attr='cell-h' value='20' />
+            <format attr='cell' value='20' />
+            <format attr='cell-q' value='100' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[textscan.42122.727884849533].[sum:Number of Records:qk]' />
+              <color column='[textscan.42122.727884849533].[none:Username:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.7999999523162842' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([textscan.42122.727884849533].[none:Username:nk] / [textscan.42122.727884849533].[none:Merged By:nk])</rows>
+        <cols>[textscan.42122.727884849533].[none:Number:ok]</cols>
+      </table>
+    </worksheet>
     <worksheet name='Time between creating and closing a pull request'>
       <table>
         <view>
@@ -2789,7 +2843,7 @@
             </column>
             <column datatype='integer' name='[Number]' role='dimension' type='ordinal'>
             </column>
-            <column datatype='string' name='[Username]' role='dimension' type='nominal'>
+            <column caption='Created By' datatype='string' name='[Username]' role='dimension' type='nominal'>
             </column>
             <column-instance column='[Number]' derivation='None' name='[none:Number:ok]' pivot='key' type='ordinal' />
             <column-instance column='[Username]' derivation='None' name='[none:Username:nk]' pivot='key' type='nominal' />
@@ -2865,7 +2919,7 @@
   </worksheets>
   <windows>
     <window class='schema' source-height='-1' />
-    <window auto-hidden='0' class='worksheet' maximized='1' name='Pull Requests without milestones'>
+    <window auto-hidden='0' class='worksheet' maximized='0' name='Pull Requests without milestones'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -2943,7 +2997,6 @@
       <highlight>
         <color-one-way>
           <field>[textscan.42122.727884849533].[none:Merged By:nk]</field>
-          <field>[textscan.42122.727884849533].[none:Number:ok]</field>
           <field>[textscan.42122.727884849533].[none:Username:nk]</field>
         </color-one-way>
       </highlight>
@@ -3083,6 +3136,34 @@
         <color-one-way>
           <field>[textscan.42122.839152326385].[none:State:nk]</field>
           <field>[textscan.42122.839152326385].[none:Username:nk]</field>
+        </color-one-way>
+      </highlight>
+    </window>
+    <window auto-hidden='0' class='worksheet' maximized='1' name='Sheet 9'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='0' param='[textscan.42122.727884849533].[sum:Number of Records:qk]' type='size' />
+            <card pane-specification-id='0' param='[textscan.42122.727884849533].[none:Username:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <highlight>
+        <color-one-way>
+          <field>[textscan.42122.727884849533].[none:Merged By:nk]</field>
+          <field>[textscan.42122.727884849533].[none:Number:ok]</field>
+          <field>[textscan.42122.727884849533].[none:Username:nk]</field>
         </color-one-way>
       </highlight>
     </window>
@@ -3655,6 +3736,53 @@
       i6JhUTQsioZF0bAoGhZFw6JoWBQNi6JhUTQsioZF0bAoGhZFw6JoWBQNi6JhUTQsioZF0bAo
       GhZFw6JoWBQNi6JhUTQsioZF0bAoGhZFw6JoWBQNi6JhUTQsioZF0fwJWi5nGakzUp0AAAAA
       SUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='124' name='Sheet 9' width='192'>
+      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
+      RU5ErkJggg==
     </thumbnail>
   </thumbnails>
 </workbook>
