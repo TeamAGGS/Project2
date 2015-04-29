@@ -146,7 +146,7 @@ We further categorize bad smells related to issues into three high-level questio
 - It is an ideal way to avoid following tedious email threads to keep up with the code review.
 
 <img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%20Requests/pr2.jpg">
-- It appears that although there have been pull requests foe Team1, the requests have been *merged by the same person who created them*.
+- It appears that although there have been pull requests for Team1, the requests(except for pull request 38) have been *merged by the same person who created them*.
 - Ideally the merge should be performed by another member of the team after reviewing the code.
 
 <img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%20Requests/pr3.jpg">
