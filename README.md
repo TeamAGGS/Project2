@@ -189,40 +189,81 @@ We further categorize bad smells related to issues into three high-level questio
 
 <img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/milestones/team1-issues.jpg">
 
+- The figure above shows the number of issues that were associated with a particular milestone. From this figure, we can see that the initial planning wasn't done in an effective way. A more beneficial way of working in software development would be to plan the milestones well in advance and to equally space out the tasks and responsibilities through out the duration of the project.
+- Further, it shows that the members were trying to finish more work towards the last milestone and hence the sudden rise of number of issues.
+
 **Time spent on the milestones**
 
 <img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/milestones/team1-time.jpg">
 
+- From the figure, it can be seen that the time spent on a few milestones was far greater than the others. This shows that the milestones were not evenly spaced out.
+- Moreover, the most time taken was in milestone 2 and from the issues figure it can be seen that this milestone actually did not even have a huge number of issues.
+
 **Which milestones had very few or very large number of issues?**
 
 <img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/milestones/team1-amount.jpg">
+
+- We also were able to detect if any of the milestones had very few issues or very high number of issues associated with it.
+- For this team, it can be seen from the above diagram that milestones 4 and 6 had very low number of issues whereas the milestone numbers 3 and 7 had high numbe of issues. This again account to tasks not being divided well.
+
+Also, with the help of the [badsmells generator] (https://github.com/TeamAGGS/Project2/blob/master/code/milestone_badsmell_detector.py), we were able to detect a few other bad smells:
+- For the team1's project, more than half of the milestones were closed past due date, Milestone numbers - 6, 5, 3, 2
+- Also, with reference to median time spent on a milestone, we detected if milestones had very small number of issues but did spend more than median time on it, milestone number 6.
+- This shows that even though limited number of tasks were assigned, the initial stages took much longer than anticipated since the closed date is beyond the due date as well.
+- Another interesting find was that milestone number 7 had infact largest number of issues but took a relatively short time to be closed. This could mean that the work was divided into much smaller tasks which could have been trivial.
 
 ##### Team2
 **How many issues were created under each milestone ?**
 
 <img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/milestones/team2-issues.jpg">
 
+- The figure above shows the number of issues that were associated with a particular milestone. This figure like the team1's figure has the same story of milestones not being spaced out well. 
+- Infact, it can be seen that most of the work was done in the middle of the project (milestone 5). This shows that the project members took a lot of the load at one time which would not necessarily be a good idea.
+
 **Time spent on the milestones**
 
 <img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/milestones/team2-time.jpg">
+
+- From the figure above, its clear that the time spent on a few milestones was greater than the others. 
+- This shows that the milestones were not evenly spaced out throughout the project.
 
 **Which milestones had very few or very large number of issues?**
 
 <img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/milestones/team2-amount.jpg">
 
+- We could also detect if any of the milestones had very few issues or very high number of issues associated with them.
+- For the team2 project, it can be seen from the above diagram that milestone 7 had very low number of issues whereas the milestone numbers 5 and 8 have high number of issues compared to others.
+
+Other points to note are:
+- The milestones 8, 9, 3, 6, 7 were closed after the due date was passed. This accounts for bad smells in the project as time constraints and deadlines were not met.
+- Moreover, another observation was that the milestone 7 had unusually small number of issues but excess time was spent on them. Dividing the work in a more consistent manner might help deal with such inconsistencies.
 
 ##### Team3
 **How many issues were created under each milestone ?**
 
 <img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/milestones/team3-issues.jpg">
 
+- The figure above shows the number of issues that were associated with a particular milestone. It shows that the number of issues were not too variant compared to the previous projects analyzed.
+- Infact, it can be seen even though the number of milestones were not high, the overall project work seems to be divided well.
+
 **Time spent on the milestones**
 
 <img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/milestones/team3-time.jpg">
 
+- From the figure above, it can be seen that the time spent on a few milestones was comparatively more.
+- This trend  is in sync with the above projects as well and accounts for bad smells in the project.
+
 **Which milestones had very few or very large number of issues?**
 
 <img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/milestones/team3-amount.jpg">
+
+- We could also detect if any of the milestones had very few issues or very high number of issues associated with them.
+- But for this repository, since the number of issues per milestone did not vary to a large extent compared to the other milestones, there were not as many that had unusually low or high number of issues. Only milestone:2 had unusually high number of issues corresponding to it.
+
+- Another good find was that the milestones 4 and 2 were the only ones closed after the due date. This shows that more than half of the milestones were closed before they were due which a good sign compared to the other projects.
+- Also using the script(generator) mentioned above, no milestone tags were detected that had unusually low issues and high time spent or vice versa.
+
+
 
 
 ### Pull-requests
