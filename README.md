@@ -8,6 +8,14 @@ Data collection is one of the important aspects of this project that helped us f
 - Pull Requests
 
 ## Anonymization
+We used a few anonymization tricks to ensure the privacy of the projects we were working with.
+- While collecting the data for events, issues, milestones and pull-requests, the usernames and/or assignee names were anonymized to user1, user2,.. depending on the number of unique usernames that were found while collecting the data. The code snippet can be found below:
+
+<img src = "https://github.com/TeamAGGS/Project2/blob/master/Figures/pics/anonymization.PNG">
+
+
+- The team names were then randomly changed to Team1, Team2 and Team3 to avoid any correspondence to the actual team names and  to ensure anonymity.
+- We also removed any unecessary columns from the data sets that might have any reference to the original users. Example: In one of the project datasets, the title of the pull-requests referenced the Team members names.
 
 ## Tables
 
