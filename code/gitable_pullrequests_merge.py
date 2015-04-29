@@ -18,7 +18,7 @@ def secs(d0):
 def get_pull_details(repository, pullrequests_output_file):	
 	f = open(pullrequests_output_file, "w")
 	f.write("Id" + "," + "Number" + "," + "State" + "," + "Created At" + "," + "Closed At" + "," + "Merged At" + "," + "Created-Closed Time Difference(Days)" + "," + "Username" + "," + "Merged By" + '\n')
-	token = "b9415c1691cac9a7e128769156c1e7d3d5bb07f3"
+	token = "<Insert token here>"
 	repo = 'https://api.github.com/repos/' + repository + '/pulls'
 	page = 1
 	while(True):
