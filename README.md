@@ -6,8 +6,12 @@
 ## Tables
 
 ## Data
+- [Repository1] (https://github.com/TeamAGGS/Project2/tree/master/data/Team1)
+- [Repository2] (https://github.com/TeamAGGS/Project2/tree/master/data/Team2)
+- [Repository3] (https://github.com/TeamAGGS/Project2/tree/master/data/Team3)
 
 ## Data Samples
+
 
 ## Feature Detection
 ### Events
@@ -21,6 +25,7 @@ Similarly there are macro enabled spreadsheets for Team2 and Team3.
 ### Milestones
 ### Pull-requests
 
+
 ## Feature Detection Results
 ### Events
 ### Issues
@@ -32,6 +37,14 @@ Following features related to issues and issue-labels were found using VB script
 
 ### Milestones
 ### Pull-requests
+Following features related to the Pull Requests were found:
+- Number of pull requests throughout the lifecycle of the project
+- Number of pull requests per user - exceptionally small, none found
+  - The number of pull requests issued by each team member over the period of the entire project was accounted for
+- Pull requests merged by the same person who created them
+  - Each of the pull requests was analysed for the team member who created it and the one who completed the merge
+- Unusually small time gap between the Pull request creation and merge
+  - The Time gap between the creation and merge of each pull request being extremely low
 
 ## Bad smell detector
 ### Events
@@ -121,7 +134,55 @@ We further categorize bad smells related to issues into three high-level questio
 
 ### Milestones
 ### Pull-requests
+##### Team1
+**How many pull requests does each user have?**
+<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%Requests/num_pr.jpg">
+- As we can see from the figure, Team1 has sufficient number of pull requests.
+- However, there is one member of the team --> User 4 who has no pull requests at all.
+- This just goes to say that the User 4 hasn't been actively involved in the development of the project. While the other members of the Team have somewhat comparable number of pull requests.
+ 
+**Branches being merged without going through the code review phase**
+- Pull requests are a sophisticated way of letting your team members know that the person working on a feature has completed his part and the feature is ready for code review.
+- It is an ideal way to avoid following tedious email threads to keep up with the code review.
 
+<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%Requests/pr2.jpg">
+- It appears that although there have been pull requests foe Team1, the requests have been *merged by the same person who created them*.
+- Ideally the merge should be performed by another member of the team after reviewing the code.
+
+<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%Requests/pr3.jpg">
+- It seems like there the pull requests are closed as soon as they were created. Some of them hardly have a difference of a couple if seconds between the creation and the merge!
+- This indicates that portion of the code which was merged never underwent any code review. 
+- Merging branches without reviewing them is a definite NO-NO --> BAD smell!
+
+**Pull requests without milestones**
+<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%Requests/pr4.jpg">
+- As we can see, out of the 38 pull requests only one of them has been assigned to a milestone.
+- This just goes to say that the team has either not been meeting their milestones deadlines on time.
+- Below is the timeline of the milestones due date and the day on which each pull request was merged.
+<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%Requests/pr5.jpg">
+<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%Requests/pr6.jpg">
+
+
+##### Team2
+
+- **No pull requests throughout the project**
+  - Team2 had no pull requests at all throughout the entire life cycle of the project.
+  - There was only one master branch that was being worked upon. No other branches.
+  - Working on a single master branch is not recommended since it may lead to an unstable product if someone acctidentally commits an untested portion of the code.
+  - It is advised that the master branch is left clean for a anyone who wishes to work on a latest working copy of the project. 
+  
+##### Team3
+
+<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team3/Pull%Requests/num_pr.jpg">
+
+- **Exceptionally low number of pull requests**
+  - Team3 had only 2 pull requests throughout the project.
+  - One of which is still open.
+  - Having pull requests open despite completion of the project is a definite bad smell.
+  - A pull request indicates that a feature that the developer has been working on has been completed and needs review from other developers.
+  - If the issue is still open it means that the feature is not a part of the project is which case it should have been closed out with proper comments.
+  - Though the repository has branches, all the commits seems to done only on the master branch
+  
 ## Early warning
 ### Events
 ### Issues
