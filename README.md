@@ -1,5 +1,11 @@
-# Project2- Report
+# Project2 - The Quest for Bad Smells
+
 ## Data Collection
+Data collection is one of the important aspects of this project that helped us find bad smells and inconsistencies in the projects we chose. Apart from using the [gitable.py] (https://github.com/TeamAGGS/Project2/tree/master/code/gitable.py/) to extract the events, we have also implemented other scripts that can be found under [Code] (https://github.com/TeamAGGS/Project2/tree/master/code/) to scrape through the [Github API's] (https://developer.github.com/v3/). We were able to retrieve some additional interesting details from the project1 repositories: 
+- Events
+- Issues
+- Milestones
+- Pull Requests
 
 ## Anonymization
 
