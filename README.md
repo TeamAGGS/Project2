@@ -60,6 +60,8 @@ We were able to generate few interesting feature detectors from the milestone da
 - If a milestone has unusually smaller number of issues: This feature shows if any milestone tag has very few issues assigned to it. 
 - If a milestone has unusually larger number of issues: This feature shows if any milestone tag has very high number of issues associated with. 
 
+These detectors are added to the raw data as columns and the script that does this can be found [here] (https://github.com/TeamAGGS/Project2/blob/master/code/milestone_feature_extractors.py)
+
 ### Pull-requests
 
 
