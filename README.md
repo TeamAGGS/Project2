@@ -136,7 +136,7 @@ We further categorize bad smells related to issues into three high-level questio
 ### Pull-requests
 ##### Team1
 **How many pull requests does each user have?**
-<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%Requests/num_pr.jpg">
+<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%20Requests/num_pr.jpg">
 - As we can see from the figure, Team1 has sufficient number of pull requests.
 - However, there is one member of the team --> User 4 who has no pull requests at all.
 - This just goes to say that the User 4 hasn't been actively involved in the development of the project. While the other members of the Team have somewhat comparable number of pull requests.
@@ -145,17 +145,17 @@ We further categorize bad smells related to issues into three high-level questio
 - Pull requests are a sophisticated way of letting your team members know that the person working on a feature has completed his part and the feature is ready for code review.
 - It is an ideal way to avoid following tedious email threads to keep up with the code review.
 
-<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%Requests/pr2.jpg">
+<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%20Requests/pr2.jpg">
 - It appears that although there have been pull requests foe Team1, the requests have been *merged by the same person who created them*.
 - Ideally the merge should be performed by another member of the team after reviewing the code.
 
-<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%Requests/pr3.jpg">
+<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%20Requests/pr3.jpg">
 - It seems like there the pull requests are closed as soon as they were created. Some of them hardly have a difference of a couple if seconds between the creation and the merge!
 - This indicates that portion of the code which was merged never underwent any code review. 
 - Merging branches without reviewing them is a definite NO-NO --> BAD smell!
 
 **Pull requests without milestones**
-<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%Requests/pr4.jpg">
+<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%20Requests/pr4.jpg">
 - As we can see, out of the 38 pull requests only one of them has been assigned to a milestone.
 - This just goes to say that the team has either not been meeting their milestones deadlines on time.
 - Below is the timeline of the milestones due date and the day on which each pull request was merged.
@@ -173,7 +173,7 @@ We further categorize bad smells related to issues into three high-level questio
   
 ##### Team3
 
-<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team3/Pull%Requests/num_pr.jpg">
+<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team3/num_pr.jpg">
 
 - **Exceptionally low number of pull requests**
   - Team3 had only 2 pull requests throughout the project.
