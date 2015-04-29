@@ -154,9 +154,16 @@ We further categorize bad smells related to issues into three high-level questio
 - This indicates that portion of the code which was merged never underwent any code review. 
 - Merging branches without reviewing them is a definite NO-NO --> BAD smell!
 
+**Pull requests without milestones**
+<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%Requests/pr4.jpg">
+- As we can see, out of the 38 pull requests only one of them has been assigned to a milestone.
+- This just goes to say that the team has either not been meeting their milestones deadlines on time.
+- Below is the timeline of the milestones due date and the day on which each pull request was merged.
+<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%Requests/pr5.jpg">
+<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%Requests/pr6.jpg">
+
 
 ##### Team2
-<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team3/Pull%Requests/num_pr.jpg">
 
 - **No pull requests throughout the project**
   - Team2 had no pull requests at all throughout the entire life cycle of the project.
@@ -165,6 +172,8 @@ We further categorize bad smells related to issues into three high-level questio
   - It is advised that the master branch is left clean for a anyone who wishes to work on a latest working copy of the project. 
   
 ##### Team3
+
+<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team3/Pull%Requests/num_pr.jpg">
 
 - **Exceptionally low number of pull requests**
   - Team3 had only 2 pull requests throughout the project.
