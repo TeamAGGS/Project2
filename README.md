@@ -367,14 +367,12 @@ Other points to note are:
   - Though the repository has branches, all the commits seems to done only on the master branch
   
 ## Early warning
-### Events
 ### Issues
 The visualizations generated from Tableau were used to find some trends early in the life-cycle of the project which could be become a major problem later in the life-cycle. They are described in the "Early warning results" section.
 ### Milestones
 ### Pull-requests
 
 ## Early warning results
-### Events
 ### Issues
 - There is a major accountability issue early in the life-cycle in Team3. If we lookat the figure in the section **What was the contribution of each user from project inception to completion?** for Team3, we see almost all the issues in the early days weren't assigned to anyone.
 - Also, in Team1, we observe that the user3 was responsible for most of the effort made towards the project in the first four weeks. This eventually turned out te be bad for the team as the user3 decided to dessert them later in the project.
