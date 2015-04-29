@@ -20,6 +20,14 @@ Similarly there are macro enabled spreadsheets for Team2 and Team3.
 
 ### Milestones
 ### Pull-requests
+Following features related to the Pull Requests were found:
+- Number of pull requests throughout the lifecycle of the project
+- Number of pull requests per user - exceptionally small, none found
+  - The number of pull requests issued by each team member over the period of the entire project was accounted for
+- Pull requests merged by the same person who created them
+  - Each of the pull requests was analysed for the team member who created it and the one who completed the merge
+- Unusually small time gap between the Pull request creation and merge
+  - The Time gap between the creation and merge of each pull request being extremely low
 
 ## Feature Detection Results
 ### Events
