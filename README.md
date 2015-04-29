@@ -73,6 +73,7 @@ These detectors are added to the raw data as columns and the script that does th
 - Labels used by each user
 - Percentage of each label
 - Number of events for each user per milestone
+
 ### Issues
 Following features related to issues and issue-labels were found using VB scripting:
 - Resolution Time in hours
