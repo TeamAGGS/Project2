@@ -52,6 +52,14 @@ https://github.com/TeamAGGS/Project2/blob/master/Data-with-Features/issues_team1
 Similarly there are macro enabled spreadsheets for Team2 and Team3.
 
 ### Milestones
+We were able to generate few interesting feature detectors from the milestone data:
+- Number of times milestone was used:
+ Since at least a few issues are tagged with milestones, this measure shows how many issues were assigned to be completed for a milestone.
+- Time difference between closed and created times: Amount of time spent on a particular milestone
+- Time difference between closed time and due time: This feature detector would check if the milestone tags were closed before the due date.
+- If a milestone has unusually smaller number of issues: This feature shows if any milestone tag has very few issues assigned to it. 
+- If a milestone has unusually larger number of issues: This feature shows if any milestone tag has very high number of issues associated with. 
+
 ### Pull-requests
 
 
