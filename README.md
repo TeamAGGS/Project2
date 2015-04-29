@@ -136,6 +136,7 @@ We further categorize bad smells related to issues into three high-level questio
 ### Pull-requests
 ##### Team1
 **How many pull requests does each user have?**
+
 <img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%20Requests/num_pr.jpg">
 - As we can see from the figure, Team1 has sufficient number of pull requests.
 - However, there is one member of the team --> User 4 who has no pull requests at all.
