@@ -75,6 +75,14 @@ Following features related to issues and issue-labels were found using VB script
 - Frequency of the usage of each issue labels
 
 ### Milestones
+The results for the feature detectors related to milestones explained in the above section, can be found [here] (https://github.com/TeamAGGS/Project2/tree/master/Data-with-Features).
+
+Also, few points to note:
+- The number of issues assigned to a milestone varies a lot wrt to the others & shows inefficiency in the initial planning stages of the project.
+- Most of the milestone tags in every project were closed after the due date had passed.
+- The milestones were not equally spaced through out the project and time spent on few of these was much larger than the others.
+- Every project had a few milestone tags with very few or very large number of issues associated with them.
+
 ### Pull-requests
 Following features related to the Pull Requests were found:
 - Number of pull requests throughout the lifecycle of the project
