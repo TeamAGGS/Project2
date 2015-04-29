@@ -183,6 +183,48 @@ We further categorize bad smells related to issues into three high-level questio
 - The issue label “Solved” seems redundant since the closing of the issue itself indicates that the feature has been tested and is solved.
 
 ### Milestones
+
+##### Team1
+**How many issues were created under each milestone ?**
+
+<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/milestones/team1-issues.jpg">
+
+**Time spent on the milestones**
+
+<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/milestones/team1-time.jpg">
+
+**Which milestones had very few or very large number of issues?**
+
+<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/milestones/team1-amount.jpg">
+
+##### Team2
+**How many issues were created under each milestone ?**
+
+<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/milestones/team2-issues.jpg">
+
+**Time spent on the milestones**
+
+<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/milestones/team2-time.jpg">
+
+**Which milestones had very few or very large number of issues?**
+
+<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/milestones/team2-amount.jpg">
+
+
+##### Team3
+**How many issues were created under each milestone ?**
+
+<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/milestones/team3-issues.jpg">
+
+**Time spent on the milestones**
+
+<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/milestones/team3-time.jpg">
+
+**Which milestones had very few or very large number of issues?**
+
+<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/milestones/team3-amount.jpg">
+
+
 ### Pull-requests
 ##### Team1
 **How many pull requests does each user have?**
