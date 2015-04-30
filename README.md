@@ -123,39 +123,50 @@ Tableau files can be cound at https://github.com/TeamAGGS/Project2/tree/master/c
 ##### Team1
 <img src="./Figures/Team1/events/user.png">
 - It shows user3 created the most issues. 
+
 ##### Team2
 <img src="./Figures/Team2/events/user.png">
 - User1 created about 4/5 of the events.
+
 ##### Team3
 <img src="./Figures/Team3/events/user.png">
 - User1 and user2 created almost all the issues.
+
 #### Labels used by each user
 ##### Team1
 <img src="./Figures/Team1/events/labels2.png">
 - User3 almost used all kinds of labels for the issues created. We can conclude that user3 is the team leader who creates tasks and assigns them to others.
+
 ##### Team2
 <img src="./Figures/Team2/events/labels2.png">
 - From the figure above, we can see that user1 used almost all the labels, user2 used about half of the labels while they created the events.
+
 ##### Team3
 <img src="./Figures/Team3/events/labels2.png">
 - It seems that they all used the labels quite evenly, which is a good sign. 
+
 #### Percentage of each label
 ##### Team1
 <img src="./Figures/Team1/events/labels.png">
 - As we can see from the figure, we can classify all these labels into 3 classes: plan, code and test. So, task, team discussion and question could be classified into plan phrase, bug, enhancement, generate script, modify script and help wanted could be classified into code phrase, while training and testing could be classified into test phrase. About one third of labels are plan, which follows the rule that 1/3 of time should be spent on plan. However, the number of labels for testing is way less than 1/2 .
+
 ##### Team2
 <img src="./Figures/Team2/events/labels.png">
 - From the figure above, we can tell they spent lots of time on the first 3 steps, which are the preparing for the project.
+
 ##### Team3
 <img src="./Figures/Team3/events/labels.png">
 - If we classify all the labels into 3 kinds, plan, code and test, we can generally put design into plan phrase, test into test phrase, and anything else into code phrase. In that way, it doesn’t follow the rule that 1/3 of time should be spent on plan, 1/6 of time should be spent on code, and 1/2  of time should be spent on test. In fact, they spent way more time on code than anything else. That is not a good sign.
+
 #### Number of events for each user per milestone
 ##### Team1
 <img src="./Figures/Team1/events/milestone.png">
 - User3 contributed a lot to these milestones, while others didn’t do lot.
+
 ##### Team2
 <img src="./Figures/Team2/events/milestone.png">
 - From the figure above, we see that as for the milestone, user1 did way more work compared to user2, which is not a good sign.
+
 ##### Team3
 <img src="./Figures/Team3/events/milestone.png">
 - User1 and user2 participated for these milestones evenly, while user3 seems haven’t contributed a lot to these milestones.
