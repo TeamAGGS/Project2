@@ -41,16 +41,17 @@ The sample data from one of the projects in the form of the above described tabl
 
 
 ## Data Samples
-- Events:
+Following are the screenshots from some of our data files used for this report.
+- Events:<br>
 <img src = "https://github.com/TeamAGGS/Project2/blob/master/Figures/pics/events.PNG">
 
-- Issues:
+- Issues:<br>
 <img src = "https://github.com/TeamAGGS/Project2/blob/master/Figures/pics/issues.PNG">
 
-- Milestones:
+- Milestones:<br>
 <img src = "https://github.com/TeamAGGS/Project2/blob/master/Figures/pics/milestones.PNG">
 
-- Pull requests:
+- Pull requests:<br>
 <img src = "https://github.com/TeamAGGS/Project2/blob/master/Figures/pics/pull_req.PNG">
 
 
