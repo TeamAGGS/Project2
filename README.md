@@ -21,15 +21,19 @@ We used a few anonymization tricks to ensure the privacy of the projects we were
 Each of the projects we worked on, have datasets/tables corresponding to the following:
 ##### Events
 For a particular repository, the dataset for events has details including the issue number the event was associated with, timestamp when the event was created, action of the event, and the label,users,milestone corresponnding to the event.
+<img src = "https://github.com/TeamAGGS/Project2/blob/master/Figures/pics/events.PNG">
 
 ##### Issues
 The list of issues collected from the project repositories has columns for the issue number(unique),	username(creator),	labels used,	state of the issue currently(closed | open),	assignee name,	milestone tags,	created-at timestamp,	closed-at timestamp	and time spent on the issue.
+<img src = "https://github.com/TeamAGGS/Project2/blob/master/Figures/pics/issues.PNG">
 
 ##### Milestones
 Milestone tag details were also collected in the form of tables. The file has columns : milestone number,	title, number of open issues, number of closed issues,	current state (closed | open), created-at timestamp, due-on timestamp, closed-at time.
+<img src = "https://github.com/TeamAGGS/Project2/blob/master/Figures/pics/milestones.PNG">
 
 ##### Pull-requests
 Similarly, the tables representing the data for pull-requests included details : id, pull-request number,	current state,	created-at time, closed-at time, closed time-created time (days),	merged-at time and the username associated with it.
+<img src = "https://github.com/TeamAGGS/Project2/blob/master/Figures/pics/pull_req.PNG">
 
 The sample data from one of the projects in the form of the above described tables can be found under [Data/Team1] (https://github.com/TeamAGGS/Project2/tree/master/data/Team1)
 
