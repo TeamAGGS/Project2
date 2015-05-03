@@ -21,19 +21,15 @@ We used a few anonymization tricks to ensure the privacy of the projects we were
 Each of the projects we worked on, have datasets/tables corresponding to the following:
 ##### Events
 For a particular repository, the dataset for events has details including the issue number the event was associated with, timestamp when the event was created, action of the event, and the label,users,milestone corresponnding to the event.
-<img src = "https://github.com/TeamAGGS/Project2/blob/master/Figures/pics/events.PNG">
 
 ##### Issues
 The list of issues collected from the project repositories has columns for the issue number(unique),	username(creator),	labels used,	state of the issue currently(closed | open),	assignee name,	milestone tags,	created-at timestamp,	closed-at timestamp	and time spent on the issue.
-<img src = "https://github.com/TeamAGGS/Project2/blob/master/Figures/pics/issues.PNG">
 
 ##### Milestones
 Milestone tag details were also collected in the form of tables. The file has columns : milestone number,	title, number of open issues, number of closed issues,	current state (closed | open), created-at timestamp, due-on timestamp, closed-at time.</br>
-<img src = "https://github.com/TeamAGGS/Project2/blob/master/Figures/pics/milestones.PNG">
 
 ##### Pull-requests
 Similarly, the tables representing the data for pull-requests included details : id, pull-request number,	current state,	created-at time, closed-at time, closed time-created time (days),	merged-at time and the username associated with it.
-<img src = "https://github.com/TeamAGGS/Project2/blob/master/Figures/pics/pull_req.PNG">
 
 The sample data from one of the projects in the form of the above described tables can be found under [Data/Team1] (https://github.com/TeamAGGS/Project2/tree/master/data/Team1)
 
@@ -43,7 +39,19 @@ The sample data from one of the projects in the form of the above described tabl
 - [Repository2] (https://github.com/TeamAGGS/Project2/tree/master/data/Team2)
 - [Repository3] (https://github.com/TeamAGGS/Project2/tree/master/data/Team3)
 
+
 ## Data Samples
+- Events:
+<img src = "https://github.com/TeamAGGS/Project2/blob/master/Figures/pics/events.PNG">
+
+- Issues:
+<img src = "https://github.com/TeamAGGS/Project2/blob/master/Figures/pics/issues.PNG">
+
+- Milestones:
+<img src = "https://github.com/TeamAGGS/Project2/blob/master/Figures/pics/milestones.PNG">
+
+- Pull requests:
+<img src = "https://github.com/TeamAGGS/Project2/blob/master/Figures/pics/pull_req.PNG">
 
 
 ## Feature Detection
@@ -78,6 +86,7 @@ Following feature detecters related to the Pull Requests were found:
 - Unusually small time gap between the Pull request creation and merge
   - The Time gap between the creation and merge of each pull request being extremely low
 
+
 ## Feature Detection Results
 Following features related to each of the categories were found:
 
@@ -110,6 +119,7 @@ Using the feature detecters some very interesting facts about the repositories u
 - Pull requests were merged by the same person who created them.
 - The time difference between creation of a pull requests and closing the request was extremely small for most of the pull requests.
 
+
 ## Bad smell detector
 
 We imported these spreadsheets containing original data and features in Tableau for our further analysis. Tableau produces a family of interactive data visualization products focused on extracting and representing some patterns in the data. A fancy state of the art visualization can be created in a matter of seconds with simple drag-and-drop.
@@ -124,7 +134,6 @@ Tableau files can be cound at https://github.com/TeamAGGS/Project2/tree/master/c
 - Pull Requests: (Pull_requests.twb) 
 - Milestones: (milestone.twb)
   - By combining the feature detectors, we were also able to come up with few possible bad smells with respect to the milestones data using the [badsmell detector] (https://github.com/TeamAGGS/Project2/blob/master/code/milestone_badsmell_detector.py) as well.
-
 
 
 ## Bad smell results
@@ -333,8 +342,6 @@ Other points to note are:
 - Also using the script(generator) mentioned above, no milestone tags were detected that had unusually low issues and high time spent or vice versa.
 
 
-
-
 ### Pull-requests
 ##### Team1
 **How many pull requests does each user have?**
@@ -392,13 +399,9 @@ Other points to note are:
 ## Early warning
 ### Issues
 The visualizations generated from Tableau were used to find some trends early in the life-cycle of the project which could be become a major problem later in the life-cycle. They are described in the "Early warning results" section.
-### Milestones
-### Pull-requests
 
 ## Early warning results
 ### Issues
 - There is a major accountability issue early in the life-cycle in Team3. If we lookat the figure in the section **What was the contribution of each user from project inception to completion?** for Team3, we see almost all the issues in the early days weren't assigned to anyone.
 - Also, in Team1, we observe that the user3 was responsible for most of the effort made towards the project in the first four weeks. This eventually turned out te be bad for the team as the user3 decided to dessert them later in the project.
 
-### Milestones
-### Pull-requests
