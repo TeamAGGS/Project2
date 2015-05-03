@@ -28,7 +28,7 @@ The list of issues collected from the project repositories has columns for the i
 <img src = "https://github.com/TeamAGGS/Project2/blob/master/Figures/pics/issues.PNG">
 
 ##### Milestones
-Milestone tag details were also collected in the form of tables. The file has columns : milestone number,	title, number of open issues, number of closed issues,	current state (closed | open), created-at timestamp, due-on timestamp, closed-at time.
+Milestone tag details were also collected in the form of tables. The file has columns : milestone number,	title, number of open issues, number of closed issues,	current state (closed | open), created-at timestamp, due-on timestamp, closed-at time.</br>
 <img src = "https://github.com/TeamAGGS/Project2/blob/master/Figures/pics/milestones.PNG">
 
 ##### Pull-requests
