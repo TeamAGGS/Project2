@@ -69,9 +69,18 @@ We were able to generate few interesting feature detectors from the milestone da
 These detectors are added to the raw data as columns and the script that does this can be found [here] (https://github.com/TeamAGGS/Project2/blob/master/code/milestone_feature_extractors.py)
 
 ### Pull-requests
-
+Following feature detecters related to the Pull Requests were found:
+- Number of pull requests throughout the lifecycle of the project
+- Number of pull requests per user?
+  - The number of pull requests issued by each team member over the period of the entire project was accounted for
+- Person who created the pull requests and the one who merged them
+  - Each of the pull requests was analysed for the team member who created it and the one who completed the merge
+- Unusually small time gap between the Pull request creation and merge
+  - The Time gap between the creation and merge of each pull request being extremely low
 
 ## Feature Detection Results
+Following features related to each of the categories were found:
+
 ### Events
 - Number of events each user created
 - Labels used by each user
@@ -79,7 +88,7 @@ These detectors are added to the raw data as columns and the script that does th
 - Number of events for each user per milestone
 
 ### Issues
-Following features related to issues and issue-labels were found using VB scripting:
+Using VB scripting,
 - Resolution Time in hours
 - Issue start time in Date format
 - Issue closing time in Date format
@@ -95,14 +104,11 @@ Also, few points to note:
 - Every project had a few milestone tags with very few or very large number of issues associated with them.
 
 ### Pull-requests
-Following features related to the Pull Requests were found:
-- Number of pull requests throughout the lifecycle of the project
-- Number of pull requests per user - exceptionally small, none found
-  - The number of pull requests issued by each team member over the period of the entire project was accounted for
-- Pull requests merged by the same person who created them
-  - Each of the pull requests was analysed for the team member who created it and the one who completed the merge
-- Unusually small time gap between the Pull request creation and merge
-  - The Time gap between the creation and merge of each pull request being extremely low
+Using the feature detecters some very interesting facts about the repositories under consideration were found.
+- There were hardly any pull requests for some of the repositories throughout the project.
+- For one of the repositories, the number pf pull requests was alarming.
+- Pull requests were merged by the same person who created them.
+- The time difference between creation of a pull requests and closing the request was extremely small for most of the pull requests.
 
 ## Bad smell detector
 
