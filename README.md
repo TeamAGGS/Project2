@@ -352,9 +352,11 @@ Other points to note are:
 <img style="float:right" src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%20Requests/pr4.jpg">
 - As we can see, out of the 38 pull requests only one of them has been assigned to a milestone.
 - This just goes to say that the team has either not been meeting their milestones deadlines on time.
-- Below is the timeline of the milestones due date and the day on which each pull request was merged.
-<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%Requests/pr5.jpg">
-<img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%Requests/pr6.jpg">
+- Below is the timeline of the milestones due date and the day on which each pull request was merged. </br>
+- 
+<img style="float:right" src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%20Requests/pr5.jpg">
+<img style="float:right" src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%20Requests/pr6.jpg">
+
 
 
 ##### Team2
