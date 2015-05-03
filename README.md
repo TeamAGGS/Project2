@@ -55,6 +55,7 @@ Following are the screenshots from some of our data files used for this report.
 <img src = "https://github.com/TeamAGGS/Project2/blob/master/Figures/pics/pull_req.PNG">
 
 
+
 ## Feature Detection
 ### Events
 We import the sheets to Tableau to find the data pattern.
@@ -86,6 +87,7 @@ Following feature detecters related to the Pull Requests were found:
   - Each of the pull requests was analysed for the team member who created it and the one who completed the merge
 - Unusually small time gap between the Pull request creation and merge
   - The Time gap between the creation and merge of each pull request being extremely low
+
 
 
 ## Feature Detection Results
@@ -139,7 +141,9 @@ Tableau files can be cound at https://github.com/TeamAGGS/Project2/tree/master/c
 
 ## Bad smell results
 ### Events
+
 #### Number of events each user created
+----
 ##### Team1
 <img src="./Figures/Team1/events/user.png">
 - It shows user3 created the most issues. 
@@ -153,6 +157,7 @@ Tableau files can be cound at https://github.com/TeamAGGS/Project2/tree/master/c
 - User1 and user2 created almost all the issues.
 
 #### Labels used by each user
+----
 ##### Team1
 <img src="./Figures/Team1/events/labels2.png">
 - User3 almost used all kinds of labels for the issues created. We can conclude that user3 is the team leader who creates tasks and assigns them to others.
@@ -166,6 +171,7 @@ Tableau files can be cound at https://github.com/TeamAGGS/Project2/tree/master/c
 - It seems that they all used the labels quite evenly, which is a good sign. 
 
 #### Percentage of each label
+----
 ##### Team1
 <img src="./Figures/Team1/events/labels.png">
 - As we can see from the figure, we can classify all these labels into 3 classes: plan, code and test. So, task, team discussion and question could be classified into plan phrase, bug, enhancement, generate script, modify script and help wanted could be classified into code phrase, while training and testing could be classified into test phrase. About one third of labels are plan, which follows the rule that 1/3 of time should be spent on plan. However, the number of labels for testing is way less than 1/2 .
@@ -179,6 +185,7 @@ Tableau files can be cound at https://github.com/TeamAGGS/Project2/tree/master/c
 - If we classify all the labels into 3 kinds, plan, code and test, we can generally put design into plan phrase, test into test phrase, and anything else into code phrase. In that way, it doesn’t follow the rule that 1/3 of time should be spent on plan, 1/6 of time should be spent on code, and 1/2  of time should be spent on test. In fact, they spent way more time on code than anything else. That is not a good sign.
 
 #### Number of events for each user per milestone
+----
 ##### Team1
 <img src="./Figures/Team1/events/milestone.png">
 - User3 contributed a lot to these milestones, while others didn’t do lot.
@@ -194,6 +201,7 @@ Tableau files can be cound at https://github.com/TeamAGGS/Project2/tree/master/c
 ### Issues
 We further categorize bad smells related to issues into three high-level questions.
 #### What was the contribution of each user from project inception to completion?
+----
 ##### Team1
 <img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Dashboard%201.jpg">
 
@@ -216,6 +224,7 @@ We further categorize bad smells related to issues into three high-level questio
 - There is a smattering of contributions made by user2 around submission deadlines.
 
 #### How much process was followed throughout the project?
+----
 ##### Team1
 <img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Dashboard%202.jpg">
 
@@ -238,6 +247,7 @@ We further categorize bad smells related to issues into three high-level questio
 - The milestone where all the testing was done (System test …) has very few issues assigned and very less effort was put in those issues. *Therefore, not a lot of effort was put into testing which goes against the benchmark laid out by Brooks.*
 
 #### How frequently were each issue labels used?
+----
 ##### Team1
 <img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Dashboard%203.jpg">
 
@@ -265,6 +275,7 @@ We further categorize bad smells related to issues into three high-level questio
 
 ##### Team1
 **How many issues were created under each milestone ?**
+----
 
 <img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/milestones/team1-issues.jpg">
 
@@ -272,6 +283,7 @@ We further categorize bad smells related to issues into three high-level questio
 - Further, it shows that the members were trying to finish more work towards the last milestone and hence the sudden rise of number of issues.
 
 **Time spent on the milestones**
+----
 
 <img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/milestones/team1-time.jpg">
 
@@ -279,6 +291,7 @@ We further categorize bad smells related to issues into three high-level questio
 - Moreover, the most time taken was in milestone 2 and from the issues figure it can be seen that this milestone actually did not even have a huge number of issues.
 
 **Which milestones had very few or very large number of issues?**
+----
 
 <img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/milestones/team1-amount.jpg">
 
@@ -293,6 +306,7 @@ Also, with the help of the [badsmells generator] (https://github.com/TeamAGGS/Pr
 
 ##### Team2
 **How many issues were created under each milestone ?**
+----
 
 <img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/milestones/team2-issues.jpg">
 
@@ -300,6 +314,7 @@ Also, with the help of the [badsmells generator] (https://github.com/TeamAGGS/Pr
 - Infact, it can be seen that most of the work was done in the middle of the project (milestone 5). This shows that the project members took a lot of the load at one time which would not necessarily be a good idea.
 
 **Time spent on the milestones**
+----
 
 <img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/milestones/team2-time.jpg">
 
@@ -307,6 +322,7 @@ Also, with the help of the [badsmells generator] (https://github.com/TeamAGGS/Pr
 - This shows that the milestones were not evenly spaced out throughout the project.
 
 **Which milestones had very few or very large number of issues?**
+----
 
 <img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/milestones/team2-amount.jpg">
 
@@ -319,6 +335,7 @@ Other points to note are:
 
 ##### Team3
 **How many issues were created under each milestone ?**
+----
 
 <img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/milestones/team3-issues.jpg">
 
@@ -326,6 +343,7 @@ Other points to note are:
 - Infact, it can be seen even though the number of milestones were not high, the overall project work seems to be divided well.
 
 **Time spent on the milestones**
+----
 
 <img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/milestones/team3-time.jpg">
 
@@ -333,6 +351,7 @@ Other points to note are:
 - This trend  is in sync with the above projects as well and accounts for bad smells in the project.
 
 **Which milestones had very few or very large number of issues?**
+----
 
 <img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/milestones/team3-amount.jpg">
 
@@ -346,6 +365,7 @@ Other points to note are:
 ### Pull-requests
 ##### Team1
 **How many pull requests does each user have?**
+----
 
 <img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%20Requests/num_pr.jpg">
 - As we can see from the figure, Team1 has sufficient number of pull requests.
@@ -353,6 +373,7 @@ Other points to note are:
 - This just goes to say that the User 4 hasn't been actively involved in the development of the project. While the other members of the Team have somewhat comparable number of pull requests.
  
 **Branches being merged without going through the code review phase**
+----
 - Pull requests are a sophisticated way of letting your team members know that the person working on a feature has completed his part and the feature is ready for code review.
 - It is an ideal way to avoid following tedious email threads to keep up with the code review.
 
@@ -366,12 +387,12 @@ Other points to note are:
 - Merging branches without reviewing them is a definite NO-NO --> BAD smell!
 
 **Pull requests without milestones**
+----
 
 <img style="float:right" src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%20Requests/pr4.jpg">
 - As we can see, out of the 38 pull requests only one of them has been assigned to a milestone.
 - This just goes to say that the team has either not been meeting their milestones deadlines on time.
 - Below is the timeline of the milestones due date and the day on which each pull request was merged. </br>
-- 
 <img style="float:right" src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%20Requests/pr5.jpg">
 <img style="float:right" src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%20Requests/pr6.jpg">
 
@@ -380,6 +401,7 @@ Other points to note are:
 ##### Team2
 
 - **No pull requests throughout the project**
+-----
   - Team2 had no pull requests at all throughout the entire life cycle of the project.
   - There was only one master branch that was being worked upon. No other branches.
   - Working on a single master branch is not recommended since it may lead to an unstable product if someone acctidentally commits an untested portion of the code.
@@ -390,6 +412,7 @@ Other points to note are:
 <img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team3/num_pr.jpg">
 
 - **Exceptionally low number of pull requests**
+-----
   - Team3 had only 2 pull requests throughout the project.
   - One of which is still open.
   - Having pull requests open despite completion of the project is a definite bad smell.
@@ -397,6 +420,7 @@ Other points to note are:
   - If the issue is still open it means that the feature is not a part of the project is which case it should have been closed out with proper comments.
   - Though the repository has branches, all the commits seems to done only on the master branch
   
+
 ## Early warning
 ### Issues
 The visualizations generated from Tableau were used to find some trends early in the life-cycle of the project which could be become a major problem later in the life-cycle. They are described in the "Early warning results" section.
