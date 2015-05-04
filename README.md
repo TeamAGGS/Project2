@@ -372,7 +372,7 @@ Other points to note are:
 
 ### Pull-requests
 ##### Team1
-**How many pull requests does each user have?**
+**Unequal distribution of pull requests per user**
 ----
 
 <img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team1/Pull%20Requests/num_pr.jpg">
@@ -408,7 +408,7 @@ Other points to note are:
 
 ##### Team2
 
-- **No pull requests throughout the project**
+**No pull requests throughout the project**
 -----
   - Team2 had no pull requests at all throughout the entire life cycle of the project.
   - There was only one master branch that was being worked upon. No other branches.
@@ -419,7 +419,7 @@ Other points to note are:
 
 <img src="https://github.com/TeamAGGS/Project2/blob/master/Figures/Team3/num_pr.jpg">
 
-- **Exceptionally low number of pull requests**
+**Exceptionally low number of pull requests**
 -----
   - Team3 had only 2 pull requests throughout the project.
   - One of which is still open.
