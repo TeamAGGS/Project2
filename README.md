@@ -150,7 +150,7 @@ Tableau files can be cound at https://github.com/TeamAGGS/Project2/tree/master/c
 ## Bad smell results
 ### Events
 
-#### Number of events each user created
+#### Unequal distribution of issues created per user
 ----
 ##### Team1
 <img src="./Figures/Team1/events/user.png">
@@ -164,7 +164,7 @@ Tableau files can be cound at https://github.com/TeamAGGS/Project2/tree/master/c
 <img src="./Figures/Team3/events/user.png">
 - User1 and user2 created almost all the issues.
 
-#### Labels used by each user
+#### 'Leader' driving the project
 ----
 ##### Team1
 <img src="./Figures/Team1/events/labels2.png">
@@ -178,7 +178,7 @@ Tableau files can be cound at https://github.com/TeamAGGS/Project2/tree/master/c
 <img src="./Figures/Team3/events/labels2.png">
 - It seems that they all used the labels quite evenly, which is a good sign. 
 
-#### Percentage of each label
+#### Inefficient use of labels created
 ----
 ##### Team1
 <img src="./Figures/Team1/events/labels.png">
@@ -192,7 +192,7 @@ Tableau files can be cound at https://github.com/TeamAGGS/Project2/tree/master/c
 <img src="./Figures/Team3/events/labels.png">
 - If we classify all the labels into 3 kinds, plan, code and test, we can generally put design into plan phrase, test into test phrase, and anything else into code phrase. In that way, it doesn’t follow the rule that 1/3 of time should be spent on plan, 1/6 of time should be spent on code, and 1/2  of time should be spent on test. In fact, they spent way more time on code than anything else. That is not a good sign.
 
-#### Number of events for each user per milestone
+#### Number of events for each user per milestone indicating maximum contribution by a single user
 ----
 ##### Team1
 <img src="./Figures/Team1/events/milestone.png">
