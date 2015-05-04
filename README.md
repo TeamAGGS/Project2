@@ -57,15 +57,18 @@ Following are the screenshots from some of our data files used for this report.
 
 
 ## Feature Detection
+
 ### Events
-We import the sheets to Tableau to find the data pattern.
+- Number of events each user created
+- Labels used by each user
+- Percentage of each label used
+- Number of events for each user per milestone 
 
 ### Issues
-We generate a set of derived features from the raw data using VB scripting in MS Excel. The code can be found by opening the Excel spreadsheet in developer mode. This macro enabled spreadsheet can be found at:
-
-https://github.com/TeamAGGS/Project2/blob/master/Data-with-Features/issues_team1.xlsm
-
-Similarly there are macro enabled spreadsheets for Team2 and Team3.
+- Resolution Time in hours
+- Issue start time in Date format
+- Issue closing time in Date format
+- Frequency of the usage of each issue labels
 
 ### Milestones
 We were able to generate few interesting feature detectors from the milestone data:
@@ -118,7 +121,7 @@ Also, few points to note:
 ### Pull-requests
 Using the feature detecters some very interesting facts about the repositories under consideration were found.
 - There were hardly any pull requests for some of the repositories throughout the project.
-- For one of the repositories, the number pf pull requests was alarming.
+- For one of the repositories, the number of pull requests was alarming.
 - Pull requests were merged by the same person who created them.
 - The time difference between creation of a pull requests and closing the request was extremely small for most of the pull requests.
 
