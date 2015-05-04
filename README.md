@@ -60,14 +60,19 @@ Following are the screenshots from some of our data files used for this report.
 
 ### Events
 - Number of events each user created
+   - Events like creating issues, labels, etc and user who created it
 - Labels used by each user
 - Percentage of each label used
 - Number of events for each user per milestone 
+  - Contribution of each user for the milestone
 
 ### Issues
 - Resolution Time in hours
+   - Time gap between creation and closing of issues
 - Issue start time in Date format
+   - The time-date each issue was created/started working on
 - Issue closing time in Date format
+   - The time-date each issue was closed
 - Frequency of the usage of each issue labels
 
 ### Milestones
